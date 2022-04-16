@@ -989,7 +989,7 @@ this.winle = this.winle || {}, this.winle.bundle = function(e) {
     }
 
     function Da(e) {
-        var a, s = Ga(e);
+        var a, s = Ga(e) + 6;
         return a = s % La.length, La[a]
     }
 
